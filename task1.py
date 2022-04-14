@@ -31,3 +31,5 @@ for ip in distinct_ip:
     print(ip + "-" + country)
 
 print(Counter(country_list))
+
+r.close()
